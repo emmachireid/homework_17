@@ -1,0 +1,67 @@
+
+
+body { 
+    background-image: url(..//images/DSC00321-Edit\ copy\ 2.jpg);
+    background-position: center fixed;
+    background-repeat:  no-repeat;
+    background-size:  cover;
+} 
+
+.parent1 {
+    display:flex;
+    /* height:90%; */
+}
+
+header{
+    display:flex;
+    font-size: 5.5em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    writing-mode: vertical-rl;
+}
+
+.one {
+    display:flex;
+    width:15%;
+}
+
+.two{
+    display:flex;
+    align-items:center;
+    /* font-family: Verdana, Geneva, sans-serif; */
+    font-family: 'Lato', sans-serif;
+    width: 85%;
+    color: white;
+}
+
+.aboutme {
+    display:flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #C9A1A1;
+    margin-top: 2em;
+  
+}
+
+
+.parent2, .parent3 {
+    display:flex;
+    align-items: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.a{
+    font-size: 18px;
+}
+
+.contacthead, .contactinfo {
+    padding: 0px 20px 0px 20px;
+}
+
+li{
+    padding:10px;
+}
+
+
