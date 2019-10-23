@@ -1,15 +1,24 @@
+body{
+    font-family: 'Poppins', helvetica;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 
-body { 
-    background-image: url(..//images/DSC00321-Edit\ copy\ 2.jpg);
-    background-position: center fixed;
-    background-repeat:  no-repeat;
-    background-size:  cover;
-} 
-
-.parent1 {
+/* -----Start of Hero Portion----------------------*/
+#hero {
     display:flex;
-    /* height:90%; */
+    height:120vh;
+    width: 100%;
+    background: url(../images/DSC00321-Edit\ copy\ 2.jpg) 
+                repeat scroll center center / cover;
 }
 
 header{
@@ -19,30 +28,125 @@ header{
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     writing-mode: vertical-rl;
+    padding: 50px 10px 10px 10px;
 }
 
-.one {
+/* .one {
     display:flex;
     width:15%;
-}
+} */
 
 .two{
     display:flex;
     align-items:center;
     /* font-family: Verdana, Geneva, sans-serif; */
     font-family: 'Lato', sans-serif;
-    width: 85%;
+    /* width: 85%; */
     color: white;
 }
+
+
+#name{
+    /* text-transform:lowercase; */
+    letter-spacing: 8px;
+    color: white;
+    font-family: 'Poppins', helvetica;
+}
+
+#subtext {
+    text-transform:lowercase; 
+    letter-spacing: 5px;
+    color: white;
+    margin: 0;
+    font-size:13px;
+}
+
+/* -----End of Hero Portion---------------------- */
+
+
+
+
+
+/* -----Start of About Me------------------------ */
+
+#about {
+    width: 100%;
+    height: auto;
+    background: #f7f2f2;
+    padding-top: 190px;
+}
+.paddsection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.row{ 
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#about .div-img-bg {
+    padding-bottom: 30px;
+    border: 20px solid #c0a176;
+}
+
+#about .div-img-bg .about-img img {
+    width: 100%;
+    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+    margin-top: -60px;
+    margin-left: 40px;
+    height: 400px;
+    object-fit: cover;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#about .about-description .p-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    text-align: left;
+    color:#717171;
+}
+
+#about .about-description .separator {
+    max-width: 80%;
+    margin-bottom: 0;
+    text-align: left;
+    color: #858585;
+    margin: 25px 0;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+li{
+    display:inline;
+    margin-right: 20px;
+}
+
+.listunstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+
+/* -----End of About Me-------------------------- */
+
+
+
+/* -----End of About Me-------------------------- */
 
 .aboutme {
     display:flex;
     height: 300px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #C9A1A1;
     margin-top: 2em;
-  
 }
 
 
@@ -50,18 +154,16 @@ header{
     display:flex;
     align-items: center;
     font-family: Verdana, Geneva, sans-serif;
+    padding: 20px 100px 20px 100px;
 }
 
 .a{
     font-size: 18px;
 }
 
-.contacthead, .contactinfo {
-    padding: 0px 20px 0px 20px;
-}
-
+/* 
 li{
     padding:10px;
-}
+} */
 
 
