@@ -17,6 +17,7 @@ body{
 }
 
 
+
 /* -----Start of Hero Portion----------------------*/
 
 #hero {
@@ -172,7 +173,7 @@ img {
 .portfolio-thumbnail {
     margin-bottom: 30px;
     overflow: hidden;
-    min-height: 260px;
+    /* min-height: 260px; */
 }
 
 .portfolio-thumbnail img {
@@ -236,3 +237,45 @@ h2 {
 #contact input {
     width: 100%;
 }
+
+
+/* --------MEDIA--------------------------- */
+
+
+@media (min-width: 481px) and (max-width: 980px) {
+
+/* About  */
+
+    #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-description .p-heading {
+    font-size: 20px;
+    margin-top: 10%;
+  }
+  #about .about-description .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+
+/* Contact */
+
+.contact-contact {
+    margin-bottom: 30px;
+  }
+
+  /* Hero */
+  
+#hero{
+    height: 60vh ;
+  }
+
+}
+
+@media (max-width: 480px) {
+    #hero {
+        height: 30vh;
+    }
+}
+
