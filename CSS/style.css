@@ -108,14 +108,14 @@ img {
     border-style: none;
 }
 
-#about .about-description .p-heading {
+.p-heading {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
     text-align: left;
     color:#717171;
 }
 
-#about .about-description .separator {
+.separator {
     max-width: 80%;
     margin-bottom: 0;
     text-align: left;
@@ -253,14 +253,19 @@ h2 {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-#about .about-description .p-heading {
-    font-size: 20px;
+.p-heading {
+    font-size: 25px;
     margin-top: 10%;
   }
-#about .about-description .separator {
+.separator {
     max-width: 100%;
     margin-bottom: 0;
+    font-size: 17px;
   }
+
+.listunstyled{
+    padding-top: 30px;
+}
 
 /* Contact */
 
@@ -285,7 +290,6 @@ header{
 
 #subtext {
     font-size:13px;
-
 }
 }
 
