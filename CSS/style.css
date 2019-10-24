@@ -244,17 +244,17 @@ h2 {
 
 @media (min-width: 481px) and (max-width: 980px) {
 
-/* About  */
+    /* About  */
 
-    #about .div-img-bg .about-img img {
+#about .div-img-bg .about-img img {
     margin-top: 0%;
     margin-left: calc(0% - 0px);
   }
-  #about .about-description .p-heading {
+#about .about-description .p-heading {
     font-size: 20px;
     margin-top: 10%;
   }
-  #about .about-description .separator {
+#about .about-description .separator {
     max-width: 100%;
     margin-bottom: 0;
   }
@@ -268,9 +268,22 @@ h2 {
   /* Hero */
   
 #hero{
-    height: 60vh ;
+    height: 60vh;
   }
 
+.two {
+    padding-top: 200px;
+    padding-left: 0px;
+}
+
+header{
+    font-size: 2.5em;
+}
+
+#subtext {
+    font-size:13px;
+
+}
 }
 
 @media (max-width: 480px) {
@@ -278,4 +291,3 @@ h2 {
         height: 30vh;
     }
 }
-
