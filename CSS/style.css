@@ -3,7 +3,7 @@ body{
 }
 
 .container{
-    display: flex;
+    /* display: flex; */
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -11,15 +11,22 @@ body{
     margin-left: auto;
 }
 
+.nopadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 /* -----Start of Hero Portion----------------------*/
+
 #hero {
     display:flex;
     height:120vh;
     width: 100%;
     background: url(../images/DSC00321-Edit\ copy\ 2.jpg) 
-                repeat scroll center center / cover;
+                repeat scroll center center / cover ;
 }
+
 
 header{
     display:flex;
@@ -31,22 +38,16 @@ header{
     padding: 50px 10px 10px 10px;
 }
 
-/* .one {
-    display:flex;
-    width:15%;
-} */
 
 .two{
-    display:flex;
-    align-items:center;
-    /* font-family: Verdana, Geneva, sans-serif; */
     font-family: 'Lato', sans-serif;
     /* width: 85%; */
     color: white;
+    padding-top: 400px;
+    padding-left: 0px;
 }
 
-
-#name{
+#name1{
     /* text-transform:lowercase; */
     letter-spacing: 8px;
     color: white;
@@ -58,7 +59,7 @@ header{
     letter-spacing: 5px;
     color: white;
     margin: 0;
-    font-size:13px;
+    font-size:15px;
 }
 
 /* -----End of Hero Portion---------------------- */
@@ -119,12 +120,17 @@ img {
     text-align: left;
     color: #858585;
     margin: 25px 0;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 28px;
 }
 
-li{
+/* li{
     display:inline;
+    margin-right: 20px;
+} */
+
+.inline {
+    display: inline;
     margin-right: 20px;
 }
 
@@ -138,28 +144,95 @@ li{
 
 
 
-/* -----End of About Me-------------------------- */
 
-.aboutme {
-    display:flex;
-    height: 300px;
+/* -----Start of Case Studies ------------------- */
+
+#case-studies {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.section-head{
+    margin-bottom: 60px;
+}
+
+#case-studies .casestudies-container {
+    display: inline-block;
+    margin-bottom: 50px;
     width: 100%;
-    justify-content: center;
-    background-color: #C9A1A1;
-    margin-top: 2em;
 }
 
 
-.parent2, .parent3 {
-    display:flex;
-    align-items: center;
-    font-family: Verdana, Geneva, sans-serif;
-    padding: 20px 100px 20px 100px;
+/* element.style {
+    position: absolute;
+    left: 740px;
+    top: 0px;
+} */
+
+.portfolio-thumbnail {
+    margin-bottom: 30px;
+    overflow: hidden;
+    min-height: 260px;
 }
 
-.a{
-    font-size: 18px;
+.portfolio-thumbnail img {
+    max-width: 100%;
+}
+
+.casestudies-list {
+    margin-bottom: 50px;
+    color: #858585;
+    font-size: 17px;
+    line-height: 28px;
+    list-style: none;
+}
+/* -----End of Case Studies --------------------- */
+
+/* -----Start of Contact  ----------------------- */
+
+#contact {
+    height: auto;
+    width: 100%;
+    background-color: #f7f2f2;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #292929;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-details {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #858585;
+}
+
+.contact-details li {
+    padding-bottom: 10px;
 }
 
 
+.form-control {
+    background-color: 717171;
+    border: 1px solid #999;
+    border-radius: 0;
+    color: #999999;
+    font-size: 12px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0.1em;
+    padding-left: 10px;
+    margin: 0 0 25px 0;
+    line-height: 14px;
+    text-transform: uppercase;
+}
 
+#contact input {
+    width: 100%;
+}
