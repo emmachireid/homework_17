@@ -245,6 +245,9 @@ h2 {
 @media (min-width: 481px) and (max-width: 980px) {
 
     /* About  */
+#about {
+    padding-top: 100px;
+}
 
 #about .div-img-bg .about-img img {
     margin-top: 0%;
