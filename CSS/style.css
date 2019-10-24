@@ -267,8 +267,7 @@ h2 {
     padding-top: 30px;
 }
 
-/* Contact */
-
+/* Contact */                                                           
 .contact-contact {
     margin-bottom: 30px;
   }
@@ -276,7 +275,7 @@ h2 {
   /* Hero */
   
 #hero{
-    height: 60vh;
+    height: 60vh;                                                                                                                         
   }
 
 .two {
